@@ -1,0 +1,38 @@
+[project]
+name = "mkdocs-wordart"
+version = "0.0.0"
+description = "A MkDocs plugin that makes wordart available again."
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["mkdocs", "documentation", "asciinema"]
+authors = [
+  {name = "name", email = "name@name.com"}
+]
+requires-python = ">=3.9"
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Operating System :: POSIX",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Information Technology",
+  "Intended Audience :: System Administrators",
+  "Topic :: Software Development :: Build Tools",
+  "Natural Language :: English",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Utilities",
+  "Topic :: Software Development :: Documentation",
+]
+dependencies = [
+  "mkdocs>=1.5.3",
+]
+
+[project.urls]
+Documentation = "https://Useless-DevLab.github.io/mkdocs-wordart/"
+Issues = "https://github.com/Useless-DevLab/mkdocs-wordart/issues"
+Source = "https://github.com/Useless-DevLab/mkdocs-wordart"
+
+[project.entry-points."mkdocs.plugins"]
+wordart = "mkdocs_wordart.plugin:WordartPlugin"
