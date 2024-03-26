@@ -1,0 +1,19 @@
+---
+# Project information
+site_name: MkDocs wordart plugin
+site_url: https://Useless-DevLab.github.io/mkdocs-wordart/
+site_description: A MkDocs plugin that makes wordart available again.
+
+# Repository
+repo_name: mkdocs-wordart
+repo_url: https://github.com/Useless-DevLab/mkdocs-wordart
+edit_uri: blob/main/docs/
+
+# Theme
+theme:
+  name: readthedocs
+
+# Plugins
+plugins:
+  - search
+  - wordart

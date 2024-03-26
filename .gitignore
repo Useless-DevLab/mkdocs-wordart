@@ -1,2 +1,3 @@
 .venv
 src/mkdocs_wordart.egg-info
+src/mkdocs_wordart/__pycache__
