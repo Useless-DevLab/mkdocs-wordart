@@ -6,7 +6,7 @@ readme = "README.md"
 license = {file = "LICENSE"}
 keywords = ["mkdocs", "documentation", "asciinema"]
 authors = [
-  {name = "", email = ""}
+  {name = "name", email = "name@name.com"}
 ]
 requires-python = ">=3.9"
 classifiers = [

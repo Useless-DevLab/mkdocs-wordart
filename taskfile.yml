@@ -1,0 +1,40 @@
+---
+version: "3"
+
+dotenv: [".config/environments/.env"]
+
+vars:
+  PYTHON: '{{.PYTHON | default "python3"}}'
+
+tasks:
+  default:
+    cmds:
+      - task: help
+
+  bootstrap:
+    desc: Bootstrap Python venv (requirements)
+    silent: true
+    cmds:
+      - |
+        {{.PYTHON}} -m venv .venv
+        .venv/bin/pip install --upgrade pip build twine
+        .venv/bin/pip install -e .[dev,lint,test]
+
+  clean:
+    desc: Cleanup project
+    silent: true
+    cmds:
+      - rm -rf .venv
+
+  reinit:
+    desc: Reinitialization Python venv (requirements)
+    silent: true
+    cmds:
+      - task: clean
+      - task: bootstrap
+
+  help:
+    desc: Display help
+    silent: true
+    cmds:
+      - task --list
