@@ -1,12 +1,14 @@
+import os
 import re
 import json
 from json import JSONDecodeError
 from typing import Any, Match, Optional
 from jinja2 import Environment, PackageLoader
 from mkdocs.plugins import BasePlugin
+from mkdocs.config.base import Config
 from mkdocs.config.defaults import MkDocsConfig
 from mkdocs.structure.pages import Page
-from mkdocs.structure.files import Files
+from mkdocs.structure.files import Files, File
 
 class WordartPlugin(BasePlugin):
 
@@ -41,3 +43,21 @@ class WordartPlugin(BasePlugin):
             self.replace_wordart_match,
             markdown
         )
+
+    def on_files(self, files: Files, config: Config) -> Files:
+        assets_src_dir = os.path.join(os.path.dirname(__file__), "assets")
+        css_dest_dir = os.path.join(config["site_dir"], "css")
+
+        wordart_css_file_obj = File(
+            path="wordart.css",
+            src_dir=assets_src_dir,
+            dest_dir=css_dest_dir,
+            use_directory_urls=config["use_directory_urls"],
+        )
+
+        files.append(wordart_css_file_obj)
+
+        return files
+
+    def on_config(self, config: MkDocsConfig) -> MkDocsConfig:
+        config["extra_css"].append("css/wordart.css")
