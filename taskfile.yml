@@ -18,7 +18,7 @@ tasks:
       - |
         {{.PYTHON}} -m venv .venv
         .venv/bin/pip install --upgrade pip build twine
-        .venv/bin/pip install -e .[dev,lint,test]
+        .venv/bin/pip install -e .
 
   clean:
     desc: Cleanup project
