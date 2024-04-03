@@ -1,6 +1,6 @@
 [project]
 name = "mkdocs-wordart"
-version = "0.0.0"
+version = "0.1.0"
 description = "A MkDocs plugin that makes wordart available again."
 readme = "README.md"
 license = {file = "LICENSE"}
