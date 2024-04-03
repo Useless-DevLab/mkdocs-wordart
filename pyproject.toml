@@ -4,9 +4,9 @@ version = "0.0.0"
 description = "A MkDocs plugin that makes wordart available again."
 readme = "README.md"
 license = {file = "LICENSE"}
-keywords = ["mkdocs", "documentation", "asciinema"]
+keywords = ["mkdocs", "documentation", "wordart"]
 authors = [
-  {name = "name", email = "name@name.com"}
+  {name = "Useless DevLab", email = "useless.devlab@gmail.com"}
 ]
 requires-python = ">=3.9"
 classifiers = [
@@ -36,3 +36,10 @@ Source = "https://github.com/Useless-DevLab/mkdocs-wordart"
 
 [project.entry-points."mkdocs.plugins"]
 wordart = "mkdocs_wordart.plugin:WordartPlugin"
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "$version"
+version_scheme = "semver"
+version_provider = "pep621"
+update_changelog_on_bump = true
