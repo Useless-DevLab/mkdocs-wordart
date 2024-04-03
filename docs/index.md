@@ -9,7 +9,8 @@ A MkDocs plugin that makes wordart available again.
 ```wordart
 {
     "style": "rainbow",
-    "text": "rainbow"
+    "text": "rainbow",
+    "size": 70
 }
 ```
 <br>
@@ -19,7 +20,8 @@ A MkDocs plugin that makes wordart available again.
 ```wordart
 {
     "style": "green-marble",
-    "text": "green-marble"
+    "text": "green-marble",
+    "size": 70
 }
 ```
 <br>
@@ -29,7 +31,8 @@ A MkDocs plugin that makes wordart available again.
 ```wordart
 {
     "style": "horizon",
-    "text": "horizon"
+    "text": "horizon",
+    "size": 70
 }
 ```
 <br>
@@ -39,7 +42,8 @@ A MkDocs plugin that makes wordart available again.
 ```wordart
 {
     "style": "blues",
-    "text": "blues"
+    "text": "blues",
+    "size": 70
 }
 ```
 <br>
@@ -49,7 +53,8 @@ A MkDocs plugin that makes wordart available again.
 ```wordart
 {
     "style": "sunset",
-    "text": "sunset"
+    "text": "sunset",
+    "size": 70
 }
 ```
 <br>
@@ -59,7 +64,8 @@ A MkDocs plugin that makes wordart available again.
 ```wordart
 {
     "style": "superhero",
-    "text": "superhero"
+    "text": "superhero",
+    "size": 70
 }
 ```
 <br>
@@ -69,7 +75,8 @@ A MkDocs plugin that makes wordart available again.
 ```wordart
 {
     "style": "graydient",
-    "text": "graydient"
+    "text": "graydient",
+    "size": 70
 }
 ```
 <br>
@@ -79,7 +86,8 @@ A MkDocs plugin that makes wordart available again.
 ```wordart
 {
     "style": "outline",
-    "text": "outline"
+    "text": "outline",
+    "size": 70
 }
 ```
 <br>
@@ -89,7 +97,8 @@ A MkDocs plugin that makes wordart available again.
 ```wordart
 {
     "style": "italic-outline",
-    "text": "italic-outline"
+    "text": "italic-outline",
+    "size": 70
 }
 ```
 <br>
@@ -99,7 +108,8 @@ A MkDocs plugin that makes wordart available again.
 ```wordart
 {
     "style": "slate",
-    "text": "slate"
+    "text": "slate",
+    "size": 70
 }
 ```
 <br>
@@ -109,7 +119,8 @@ A MkDocs plugin that makes wordart available again.
 ```wordart
 {
     "style": "radial",
-    "text": "radial"
+    "text": "radial",
+    "size": 70
 }
 ```
 <br>
@@ -119,7 +130,8 @@ A MkDocs plugin that makes wordart available again.
 ```wordart
 {
     "style": "paper-bag",
-    "text": "paper-bag"
+    "text": "paper-bag",
+    "size": 70
 }
 ```
 <br>
@@ -129,7 +141,8 @@ A MkDocs plugin that makes wordart available again.
 ```wordart
 {
     "style": "chrome",
-    "text": "chrome"
+    "text": "chrome",
+    "size": 70
 }
 ```
 <br>
@@ -139,7 +152,8 @@ A MkDocs plugin that makes wordart available again.
 ```wordart
 {
     "style": "up",
-    "text": "up"
+    "text": "up",
+    "size": 70
 }
 ```
 <br>
@@ -149,7 +163,8 @@ A MkDocs plugin that makes wordart available again.
 ```wordart
 {
     "style": "purple",
-    "text": "purple"
+    "text": "purple",
+    "size": 70
 }
 ```
 <br>
@@ -159,7 +174,8 @@ A MkDocs plugin that makes wordart available again.
 ```wordart
 {
     "style": "marble-slab",
-    "text": "marble-slab"
+    "text": "marble-slab",
+    "size": 70
 }
 ```
 <br>
@@ -169,7 +185,8 @@ A MkDocs plugin that makes wordart available again.
 ```wordart
 {
     "style": "mauve",
-    "text": "mauve"
+    "text": "mauve",
+    "size": 70
 }
 ```
 <br>
@@ -179,7 +196,8 @@ A MkDocs plugin that makes wordart available again.
 ```wordart
 {
     "style": "tilt",
-    "text": "tilt"
+    "text": "tilt",
+    "size": 70
 }
 ```
 <br>
@@ -189,7 +207,8 @@ A MkDocs plugin that makes wordart available again.
 ```wordart
 {
     "style": "yellow-dash",
-    "text": "yellow-dash"
+    "text": "yellow-dash",
+    "size": 70
 }
 ```
 <br>
@@ -199,7 +218,8 @@ A MkDocs plugin that makes wordart available again.
 ```wordart
 {
     "style": "gray-block",
-    "text": "gray-block"
+    "text": "gray-block",
+    "size": 70
 }
 ```
 <br>
@@ -209,7 +229,8 @@ A MkDocs plugin that makes wordart available again.
 ```wordart
 {
     "style": "aqua",
-    "text": "aqua"
+    "text": "aqua",
+    "size": 70
 }
 ```
 <br>
@@ -219,7 +240,8 @@ A MkDocs plugin that makes wordart available again.
 ```wordart
 {
     "style": "red-blue",
-    "text": "red-blue"
+    "text": "red-blue",
+    "size": 70
 }
 ```
 <br>
@@ -229,7 +251,8 @@ A MkDocs plugin that makes wordart available again.
 ```wordart
 {
     "style": "basic-stack",
-    "text": "basic-stack"
+    "text": "basic-stack",
+    "size": 70
 }
 ```
 <br>
@@ -239,7 +262,8 @@ A MkDocs plugin that makes wordart available again.
 ```wordart
 {
     "style": "brown-stack",
-    "text": "brown-stack"
+    "text": "brown-stack",
+    "size": 70
 }
 ```
 <br>
@@ -249,7 +273,8 @@ A MkDocs plugin that makes wordart available again.
 ```wordart
 {
     "style": "texture-stack",
-    "text": "texture-stack"
+    "text": "texture-stack",
+    "size": 70
 }
 ```
 <br>
@@ -259,7 +284,8 @@ A MkDocs plugin that makes wordart available again.
 ```wordart
 {
     "style": "green-stack",
-    "text": "green-stack"
+    "text": "green-stack",
+    "size": 70
 }
 ```
 <br>
@@ -269,7 +295,8 @@ A MkDocs plugin that makes wordart available again.
 ```wordart
 {
     "style": "stack-3d",
-    "text": "stack-3d"
+    "text": "stack-3d",
+    "size": 70
 }
 ```
 <br>

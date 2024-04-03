@@ -5,15 +5,15 @@
 |_|_\___|___/___| |_|
 
 -------------------------------------- */
-* {
+/* * {
     border: 0;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-  }
-  html,
+  } */
+  /* html,
   body {
     height: 100%;
     font-family: MicrosoftSansSerif;
@@ -29,7 +29,7 @@
     background: linear-gradient(135deg, #3dff32 0%, #30f4ff 50%, #ff00fa 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3dff32', endColorstr='#ff00fa', GradientType=1);
     background-attachment: fixed;
-  }
+  } */
   /* -------------------------------------
    ___ __  __   _   ___ ___ ___
   |_ _|  \/  | /_\ / __| __/ __|

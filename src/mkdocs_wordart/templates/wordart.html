@@ -1,3 +1,3 @@
-<div class="wordart {{ style }}" style="font-size: 50px;">
+<div class="wordart {{ style }}" style="font-size: {{ size | default(50) }}px;">
     <span class="text" data-text="{{ text }}">{{ text }}</span>
 </div>
