@@ -1,3 +1,9 @@
+## 0.1.1 (2024-04-24)
+
+### Fix
+
+- add manifest file to include css and html files in the package
+
 ## 0.1.0 (2024-04-03)
 
 ### Feat
