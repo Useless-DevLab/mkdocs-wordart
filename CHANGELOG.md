@@ -1,3 +1,9 @@
+## 0.1.2 (2024-04-25)
+
+### Fix
+
+- cleaned css classes that are not used
+
 ## 0.1.1 (2024-04-24)
 
 ### Fix
